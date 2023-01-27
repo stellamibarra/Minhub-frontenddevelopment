@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: auto;
+    box-sizing: border-box;
+}
+
+header{
+    height:500px;
+    position: static;
+    background-image: url('../images/design1image2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.texto-header {
+    font-size: 40px;
+    padding-top: 18px;
+    padding-left: 40px;
+    color: rgb(252, 252, 253);
+}
+
+.subtitulo{
+    background-color: black;
+    height: 40px;
+    top: 1000px;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+#logo {
+    height: 142px;
+    position: absolute;
+    top: 460px;
+    right: 46px;
+}
+
+nav {
+    display: inline-block;
+margin: 0 80px;
+    height: 500px;
+    width: 300px;
+}
+
+section {
+    display: inline-block;
+    margin-top: 150px;
+    height: 500px;
+    width: 800px;
+}
+
+a {
+    display: block;
+    padding: 40px ;;
+
+}
+
+section p { 
+    margin-left:50px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
