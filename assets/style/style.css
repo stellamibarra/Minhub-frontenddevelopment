@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    outline: auto;
+    outline: 0;
     box-sizing: border-box;
 }
 
@@ -43,6 +43,11 @@ margin: 0 80px;
     width: 300px;
 }
 
+a {
+    display: block;
+    padding: 40px ;;
+
+}
 section {
     display: inline-block;
     margin-top: 150px;
@@ -50,14 +55,12 @@ section {
     width: 800px;
 }
 
-a {
-    display: block;
-    padding: 40px ;;
-
-}
-
 section p { 
     margin-left:50px;
     margin-top: 25px;
     margin-bottom: 30px;
+}
+
+section a {
+    display: inline-block;
 }
