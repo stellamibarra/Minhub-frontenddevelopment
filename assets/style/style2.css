@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    outline: auto;
+    /* outline: auto; */
     box-sizing: border-box;
 }
 
@@ -12,37 +12,43 @@ header {
     height: 600px;
 }
 
-
 .texto-header {
     position: relative;
     font-size: 40px;
     padding-top: 20px;
     padding-left: 40px;
-    color: rgb(252, 252, 253);
+    color: rgb(5, 5, 5);
+    font-style: italic;
+    background-color: aliceblue;
 }
 
 .subtitulo {
-    background-color: black;
+    background-color: white;
     height: 40px;
     top: 1000px;
-    color: white;
+    color: black;
     text-align: center;
     margin: 0;
 }
 
 #logo {
     height: 142px;
-    position: absolute;
-    top: 460px;
-    right: 46px;
+    position: relative;
+    top: 750px;
+    left: 3%;
 }
 
 nav {
     display: inline-block;
     margin: 0 80px;
-    height: 500px;
-    width: 300px;
+    height: 43px;
+    width: 400px;
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+    top: 28px;
 }
+
 
 a {
     background-color: blue;
@@ -54,22 +60,27 @@ a {
     border-radius: 5px;
     text-decoration: none;
 }
+a.active:hover,a.active:active {
+    font-size: 150%;
+    background: green;
+}
+
 
 section {
     display: inline-block;
     margin-top: 150px;
-    height: 500px;
+    height: 400px;
     width: 800px;
+}
+
+section h3 {
+    font-style: italic;
 }
 
 section p {
     margin-left: 50px;
     margin-top: 25px;
     margin-bottom: 30px;
-}
-
-section a {
-    display: inline-block;
 }
 
 aside {
@@ -81,6 +92,3 @@ footer {
     background-color: brown;
     height: 60px;
 }
-
-
-
