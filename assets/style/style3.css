@@ -59,9 +59,7 @@ nav {
     position:relative;
     left: 0px;
     padding: 10px;
-    bottom: 450px;
-    
-
+    bottom: 100px;
 }
 
 
@@ -83,10 +81,9 @@ a.active:hover,a.active:active {
 
 
 section {
-    display: inline-block;
-    margin-top: 150px;
-    height: 400px;
-    width: 800px;
+
+    text-align: center;
+    margin: 80px auto;
 }
 
 section h3 {
@@ -94,9 +91,8 @@ section h3 {
 }
 
 section p {
-    margin-left: 50px;
-    margin-top: 25px;
-    margin-bottom: 30px;
+    width: 400px;
+    margin: 10px auto;
 }
 main{
     background-color: beige;
@@ -104,9 +100,7 @@ main{
 }
 
 aside {
-    display: inline-block;
     width: 400px;
-    
 }
 
 footer {
