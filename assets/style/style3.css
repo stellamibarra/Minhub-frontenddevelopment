@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: auto; */
+    box-sizing: border-box;
+}
+header{
+    background-color: aliceblue;
+    height: 100px;
+}
+
+header {
+    position: relative;
+    background-image: url('../images/hockey3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 1px top 40px;  
+    height: 600px;
+}
+
+.texto-header {
+    text-align:right;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 40px;
+    color: rgb(5, 5, 5);
+    font-style: oblique 23deg ;
+    background-color: rgb(253, 255, 240);
+    padding: 10px;
+    
+    
+}
+
+
+.subtitulo {
+    background-color: rgb(226, 235, 204);
+    height: 40px;
+    top: 1000px;
+    color: black;
+    text-align: center;
+    margin: 0;
+    font: 30px sans-serif;
+
+}
+
+#logo {
+    height: 200px;
+    position: relative;
+    padding-top: 30px;
+    left: 3%;
+    
+}
+
+nav {
+    display: block;
+    margin: 0 80px;
+    height: 43px;
+    width: 400px;
+    position:relative;
+    left: 0px;
+    padding: 10px;
+    bottom: 100px;
+}
+
+
+nav a {
+    background-color: blue;
+    display: inline;
+    margin: 2px;
+    padding: 2px 15px;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 5px;
+    text-decoration: none;
+}
+a.active:hover,a.active:active {
+    font-size: 150%;
+    background: green;
+    
+}
+
+
+section {
+
+    text-align: center;
+    margin: 80px auto;
+}
+
+section h3 {
+    font-style: italic;
+}
+
+section p {
+    width: 400px;
+    margin: 10px auto;
+}
+main{
+    background-color: beige;
+    height: 700px;
+}
+
+aside {
+    width: 400px;
+}
+
+footer {
+    background-color: rgb(214, 190, 95);
+    height: 60px;
+    
+}
