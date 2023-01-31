@@ -1,6 +1,61 @@
-.calendar {}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: auto;
+}
+.container {
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.header {
+    height: 90vh;
+    background-color: azure;
+}
+
+.header__img {
+    width: 100vw;
+}
+
+.header__logo {
+    border-radius: 9%;
+    background-color: rgba(60, 51, 189, 0.425);
+    width:  11vw;
+}
+
+.header__title {
+    background-color: rgb(216, 197, 172);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.menu {
+    background-color: rgb(157, 255, 0);
+    margin: 30px;
+    
+}
+
+.menu__link {
+    
+}
+
+.menu__links {
+    text-decoration: none;
+    list-style: none;
+}
+
+.main {}
+
+.h2 {}
+
+.h3 {}
+
+.p {}
 
 .calendar__container {}
+
+.calendar {}
 
 .calendar__item {}
 
@@ -10,30 +65,6 @@
 
 .calendar__title {}
 
-.container {}
-
 .footer {}
 
 .footer-phone {}
-
-.h2 {}
-
-.h3 {}
-
-.header {}
-
-.header__img {}
-
-.header__logo {}
-
-.header__title {}
-
-.main {}
-
-.menu {}
-
-.menu__link {}
-
-.menu__links {}
-
-.p {}
