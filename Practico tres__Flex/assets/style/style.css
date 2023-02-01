@@ -39,9 +39,7 @@
     right: 46px;
 }
 
-.menu {
-    
-}
+
 a{
     display: inline-block;
     margin: 0 10px;
@@ -60,26 +58,64 @@ a{
 
 .main {
     height: 25vw;
+    background-color: blue;
 }
 
-.h2 {}
+.h2 {
+    
+}
 
-.h3 {}
+.h3 { 
+    font-style: italic;
+}
 
-.p {}
 
-.calendar {}
 
-.calendar__container {}
+.p {
+ margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 30px
+}
 
-.calendar__item {}
+.calendar {
+    background-color: aliceblue;
+height:30%;
+}
 
-.calendar__paragraph {}
+.calendar__container {
+    background-color: beige;
 
-.calendar__subtitle {}
+}
 
-.calendar__title {}
+.calendar__item {
+    background-color: beige;
 
-.footer {}
+}
 
-.footer-phone {}
+.calendar__paragraph {
+    background-color: antiquewhite;
+
+}
+
+.calendar__subtitle {
+    
+     background-color: white;
+        height: 40px;
+        top: 1000px;
+        color: black;
+        text-align: center;
+        margin: 0;
+}
+
+.calendar__title {
+    background-color: rgb(54, 245, 181);
+
+}
+
+.footer {
+    background-color: rgb(146, 123, 123);
+}
+
+.footer-phone {
+    background-color: blueviolet;
+}
